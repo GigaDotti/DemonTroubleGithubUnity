@@ -1,13 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class NewBehaviourScript : MonoBehaviour
+public class EndingSelector : MonoBehaviour
 {
-    public Text textobject;
-    public 
-
     // Start is called before the first frame update
     void Start()
     {
