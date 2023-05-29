@@ -8,6 +8,7 @@ public class PlayerSelect : MonoBehaviour
     public Camera theCamera;
     public float hitDistance = 20f;
     public Transform inventory;
+    
     // Start is called before the first frame update
     void Start()
     {
