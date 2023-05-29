@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3668792221321843270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient5 Town
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient5 Town
+  Guid:
+    Data1: -964483433
+    Data2: 1311177921
+    Data3: 896947598
+    Data4: -510255001
+  Banks:
+  - {fileID: 3321005469500908258}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 34000
 --- !u!114 &-3135548092853050720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,6 +81,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 76363
+--- !u!114 &-2467644448895680713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CerialBad
+  m_EditorClassIdentifier: 
+  Path: event:/CerialBad
+  Guid:
+    Data1: 1833999697
+    Data2: 1283438537
+    Data3: 907754391
+    Data4: 1599997094
+  Banks:
+  - {fileID: 3321005469500908258}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 36234
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,12 +128,18 @@ MonoBehaviour:
   - {fileID: -2789061212284324432}
   - {fileID: 4673666616023221361}
   - {fileID: -3135548092853050720}
+  - {fileID: 8377608369111317133}
+  - {fileID: 8772740058184886662}
+  - {fileID: 547567379035214685}
+  - {fileID: -2467644448895680713}
+  - {fileID: 8948365980065713041}
+  - {fileID: -3668792221321843270}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3321005469500908258}
   StringsBanks:
   - {fileID: 353723780974959175}
-  cacheTime: 638203632880000000
+  cacheTime: 638209561820000000
   cacheVersion: 131603
 --- !u!114 &353723780974959175
 MonoBehaviour:
@@ -96,11 +156,38 @@ MonoBehaviour:
   Path: Assets/FMOD/MyAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638203632880000000
+  lastModified: 638209561820000000
   FileSizes:
   - Name: Desktop
-    Value: 880
+    Value: 1122
   Exists: 1
+--- !u!114 &547567379035214685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient6 CatwalkWash
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient6 CatwalkWash
+  Guid:
+    Data1: -1417157833
+    Data2: 1193259248
+    Data3: -807818865
+    Data4: 1224518165
+  Banks:
+  - {fileID: 3321005469500908258}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16500
 --- !u!114 &3321005469500908258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,10 +203,10 @@ MonoBehaviour:
   Path: Assets/FMOD/MyAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638203632880000000
+  lastModified: 638209561820000000
   FileSizes:
   - Name: Desktop
-    Value: 2082272
+    Value: 5278208
   Exists: 1
 --- !u!114 &3885278495903652923
 MonoBehaviour:
@@ -175,3 +262,84 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 50181
+--- !u!114 &8377608369111317133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Trafic
+  m_EditorClassIdentifier: 
+  Path: event:/Trafic
+  Guid:
+    Data1: -1060595451
+    Data2: 1159766413
+    Data3: 2125895076
+    Data4: -1993659870
+  Banks:
+  - {fileID: 3321005469500908258}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 181981
+--- !u!114 &8772740058184886662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CerialGood
+  m_EditorClassIdentifier: 
+  Path: event:/CerialGood
+  Guid:
+    Data1: 1568228377
+    Data2: 1154312045
+    Data3: -1410053225
+    Data4: -499836862
+  Banks:
+  - {fileID: 3321005469500908258}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 37792
+--- !u!114 &8948365980065713041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient4 Town
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient4 Town
+  Guid:
+    Data1: 1754689640
+    Data2: 1239974176
+    Data3: -231184748
+    Data4: -1107875226
+  Banks:
+  - {fileID: 3321005469500908258}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 66022
