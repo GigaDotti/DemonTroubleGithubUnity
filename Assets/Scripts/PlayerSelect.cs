@@ -36,9 +36,11 @@ public class PlayerSelect : MonoBehaviour
                 objectHit.gameObject.SetActive(false);
 
                 objectHit.GetComponent<BinaryInventoryObject>().other.transform.GetComponent<FMODUnity.StudioEventEmitter>().enabled = false;
-
-
+                
                 objectHit.GetComponent<BinaryInventoryObject>().other.SetActive(false);
+
+                objectHit.GetComponent<BinaryInventoryObject>().other.transform.position = Vector3.down * 666;
+
 
 
 
@@ -55,6 +57,9 @@ public class PlayerSelect : MonoBehaviour
                 objectHit.GetComponent<BinaryInventoryObject>().other.transform.GetComponent<FMODUnity.StudioEventEmitter>().enabled = false;
 
                 objectHit.GetComponent<BinaryInventoryObject>().other.SetActive(false);
+
+                objectHit.GetComponent<BinaryInventoryObject>().other.transform.position = Vector3.down * 666;
+
 
                 //Must disable A_pick option
             }
