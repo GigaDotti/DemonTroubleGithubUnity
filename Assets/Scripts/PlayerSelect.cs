@@ -35,6 +35,9 @@ public class PlayerSelect : MonoBehaviour
                 objectHit.parent = inventory;
                 objectHit.gameObject.SetActive(false);
 
+                objectHit.GetComponent<BinaryInventoryObject>().other.transform.GetComponent<FMODUnity.StudioEventEmitter>().enabled = false;
+
+
                 objectHit.GetComponent<BinaryInventoryObject>().other.SetActive(false);
 
 
@@ -46,6 +49,10 @@ public class PlayerSelect : MonoBehaviour
             {
                 objectHit.parent = inventory;
                 objectHit.gameObject.SetActive(false);
+
+
+                
+                objectHit.GetComponent<BinaryInventoryObject>().other.transform.GetComponent<FMODUnity.StudioEventEmitter>().enabled = false;
 
                 objectHit.GetComponent<BinaryInventoryObject>().other.SetActive(false);
 
