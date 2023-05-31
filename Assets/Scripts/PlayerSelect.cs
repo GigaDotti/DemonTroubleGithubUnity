@@ -34,6 +34,11 @@ public class PlayerSelect : MonoBehaviour
             {
                 objectHit.parent = inventory;
                 objectHit.gameObject.SetActive(false);
+
+                objectHit.GetComponent<BinaryInventoryObject>().other.SetActive(false);
+
+
+
                 //Must disable B_pick option
             }
 
@@ -41,6 +46,9 @@ public class PlayerSelect : MonoBehaviour
             {
                 objectHit.parent = inventory;
                 objectHit.gameObject.SetActive(false);
+
+                objectHit.GetComponent<BinaryInventoryObject>().other.SetActive(false);
+
                 //Must disable A_pick option
             }
 
