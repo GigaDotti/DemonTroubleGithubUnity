@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fb26c568-eb7d-479d-b9f4-2221375902f0}">
+		<property name="assetPath">
+			<value>Calm__atmospheric-loop-15.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>115.2</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f792aece-d8d6-488e-ba35-374f3e5b0c03}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5089129464632498169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PirateTown
+  m_EditorClassIdentifier: 
+  Path: event:/PirateTown
+  Guid:
+    Data1: -616221611
+    Data2: 1116560355
+    Data3: -518916730
+    Data4: 877866867
+  Banks:
+  - {fileID: 3321005469500908258}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 121823
 --- !u!114 &-3668792221321843270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,13 +161,45 @@ MonoBehaviour:
   - {fileID: -2467644448895680713}
   - {fileID: 8948365980065713041}
   - {fileID: -3668792221321843270}
+  - {fileID: 177812990132841428}
+  - {fileID: -5089129464632498169}
+  - {fileID: 5663267606032514611}
+  - {fileID: 5630261591681762620}
+  - {fileID: 4426847536017898704}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3321005469500908258}
   StringsBanks:
   - {fileID: 353723780974959175}
-  cacheTime: 638209561820000000
+  cacheTime: 638212328620000000
   cacheVersion: 131603
+--- !u!114 &177812990132841428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/OfficeSounds
+  m_EditorClassIdentifier: 
+  Path: event:/OfficeSounds
+  Guid:
+    Data1: -582399980
+    Data2: 1281146827
+    Data3: 1007352243
+    Data4: -161218645
+  Banks:
+  - {fileID: 3321005469500908258}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600000
 --- !u!114 &353723780974959175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,10 +215,10 @@ MonoBehaviour:
   Path: Assets/FMOD/MyAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638209561820000000
+  lastModified: 638212328620000000
   FileSizes:
   - Name: Desktop
-    Value: 1122
+    Value: 1328
   Exists: 1
 --- !u!114 &547567379035214685
 MonoBehaviour:
@@ -203,10 +262,10 @@ MonoBehaviour:
   Path: Assets/FMOD/MyAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638209561820000000
+  lastModified: 638212328620000000
   FileSizes:
   - Name: Desktop
-    Value: 5278208
+    Value: 21912960
   Exists: 1
 --- !u!114 &3885278495903652923
 MonoBehaviour:
@@ -235,6 +294,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 32727
+--- !u!114 &4426847536017898704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GameBackground
+  m_EditorClassIdentifier: 
+  Path: event:/GameBackground
+  Guid:
+    Data1: 1381400217
+    Data2: 1218515096
+    Data3: 1771170237
+    Data4: 67711109
+  Banks:
+  - {fileID: 3321005469500908258}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 115200
 --- !u!114 &4673666616023221361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,6 +348,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 50181
+--- !u!114 &5630261591681762620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Eldrich
+  m_EditorClassIdentifier: 
+  Path: event:/Eldrich
+  Guid:
+    Data1: 63658900
+    Data2: 1164615274
+    Data3: 1678287019
+    Data4: 758912028
+  Banks:
+  - {fileID: 3321005469500908258}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 68000
+--- !u!114 &5663267606032514611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SeaWater
+  m_EditorClassIdentifier: 
+  Path: event:/SeaWater
+  Guid:
+    Data1: -2118209148
+    Data2: 1143674246
+    Data3: -408198257
+    Data4: -1344374257
+  Banks:
+  - {fileID: 3321005469500908258}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 470088
 --- !u!114 &8377608369111317133
 MonoBehaviour:
   m_ObjectHideFlags: 0
