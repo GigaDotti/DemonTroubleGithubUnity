@@ -166,12 +166,13 @@ MonoBehaviour:
   - {fileID: 5663267606032514611}
   - {fileID: 5630261591681762620}
   - {fileID: 4426847536017898704}
+  - {fileID: 6635099458295834567}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3321005469500908258}
   StringsBanks:
   - {fileID: 353723780974959175}
-  cacheTime: 638212328620000000
+  cacheTime: 638212914440000000
   cacheVersion: 131603
 --- !u!114 &177812990132841428
 MonoBehaviour:
@@ -215,10 +216,10 @@ MonoBehaviour:
   Path: Assets/FMOD/MyAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638212328620000000
+  lastModified: 638212914440000000
   FileSizes:
   - Name: Desktop
-    Value: 1328
+    Value: 1364
   Exists: 1
 --- !u!114 &547567379035214685
 MonoBehaviour:
@@ -262,10 +263,10 @@ MonoBehaviour:
   Path: Assets/FMOD/MyAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638212328620000000
+  lastModified: 638212914420000000
   FileSizes:
   - Name: Desktop
-    Value: 21912960
+    Value: 21968768
   Exists: 1
 --- !u!114 &3885278495903652923
 MonoBehaviour:
@@ -402,6 +403,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 470088
+--- !u!114 &6635099458295834567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hell
+  m_EditorClassIdentifier: 
+  Path: event:/Hell
+  Guid:
+    Data1: 1449960391
+    Data2: 1285904649
+    Data3: -181583999
+    Data4: 1744415802
+  Banks:
+  - {fileID: 3321005469500908258}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5280
 --- !u!114 &8377608369111317133
 MonoBehaviour:
   m_ObjectHideFlags: 0
