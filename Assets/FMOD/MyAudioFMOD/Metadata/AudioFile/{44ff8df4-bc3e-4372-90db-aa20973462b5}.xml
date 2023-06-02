@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{44ff8df4-bc3e-4372-90db-aa20973462b5}">
+		<property name="assetPath">
+			<value>23-2_BadEnd.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>11.605333333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f792aece-d8d6-488e-ba35-374f3e5b0c03}</destination>
+		</relationship>
+	</object>
+</objects>

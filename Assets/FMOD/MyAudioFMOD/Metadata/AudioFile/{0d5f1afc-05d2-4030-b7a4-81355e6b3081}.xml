@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0d5f1afc-05d2-4030-b7a4-81355e6b3081}">
+		<property name="assetPath">
+			<value>11-1_Weel.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.0533333333333337</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f792aece-d8d6-488e-ba35-374f3e5b0c03}</destination>
+		</relationship>
+	</object>
+</objects>

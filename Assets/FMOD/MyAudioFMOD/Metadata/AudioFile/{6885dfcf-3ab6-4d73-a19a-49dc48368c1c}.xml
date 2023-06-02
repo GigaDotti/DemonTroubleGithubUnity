@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{6885dfcf-3ab6-4d73-a19a-49dc48368c1c}">
+		<property name="assetPath">
+			<value>17_SenseRitual.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.1173333333333337</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f792aece-d8d6-488e-ba35-374f3e5b0c03}</destination>
+		</relationship>
+	</object>
+</objects>
